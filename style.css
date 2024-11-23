@@ -1,0 +1,171 @@
+/* General */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #03045E; /* Fondo azul fuerte */
+  color: #140a0a;
+  line-height: 1.6;
+}
+
+/* Sección Hero */
+.hero-section {
+  background-color: #03045E; /* Fondo azul fuerte */
+  color: white;
+  text-align: center;
+  padding: 100px 20px; /* Aumento del padding para mejor espaciado */
+  border-bottom: 5px solid #007bff; /* Agregar borde inferior elegante */
+}
+
+.hero-section .hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para darle más énfasis al título */
+}
+
+.hero-section .hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8;
+}
+
+.hero-section .cta-button {
+  background-color: #fff;
+  color: #03045E; 
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 25px; /* Bordes más redondeados para un estilo más moderno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave en el botón */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-section .cta-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Efecto de escala al pasar el ratón */
+}
+
+/* Sección de Características */
+.features-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #03045E;
+  font-weight: 700;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* Permitir que las tarjetas se ajusten al tamaño de la pantalla */
+}
+
+.feature-card {
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px); /* Efecto de desplazamiento hacia arriba */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+.feature-card i {
+  font-size: 3rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Sección de Llamada a la Acción */
+.cta-section {
+  background-color: #f1f3f5;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #03045E;
+  font-weight: 700;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cta-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 35px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+  font-size: 1rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Logo */
+.logo {
+  width: 120px; /* Ajuste del tamaño del logo */
+  height: 120px;
+  margin-bottom: 20px; /* Aumento del espacio entre el logo y el título */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
